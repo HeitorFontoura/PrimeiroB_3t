@@ -12,6 +12,16 @@ document.write(tabuada + " x 7 = " + (tabuada*7) + "<br>");
 document.write(tabuada + " x 8 = " + (tabuada*8) + "<br>");
 document.write(tabuada + " x 9 = " + (tabuada*9) + "<br>");
 document.write(tabuada + " x 10 = " + (tabuada*10) + "<br>");
+document.write(tabuada + " X 11 = " + (tabuada*11) + "<br>");
+document.write(tabuada + " x 12 = " + (tabuada*12) + "<br>");
+document.write(tabuada + " x 13 = " + (tabuada*13) + "<br>");
+document.write(tabuada + " x 14 = " + (tabuada*14) + "<br>");
+document.write(tabuada + " x 15 = " + (tabuada*15) + "<br>");
+document.write(tabuada + " x 16 = " + (tabuada*16) + "<br>");
+document.write(tabuada + " x 17 = " + (tabuada*17) + "<br>");
+document.write(tabuada + " x 18 = " + (tabuada*18) + "<br>");
+document.write(tabuada + " x 19 = " + (tabuada*19) + "<br>");
+document.write(tabuada + " x 20 = " + (tabuada*20) + "<br>");
 }
 
 let lista = ["gilzinho","spessato","neuza","jesus","Duarte"];
@@ -53,7 +63,7 @@ function media(){
  let n4 = document.getElementById("n4").value;
 
  let r = (Number(n1)+Number(n2)+Number(n3)+Number(n4))/4;
- document.getElementById("result").innerHTML = "media: " + r;
+ document.getElementById("result").innerHTML = "M edia: " + r;
 
 }
 function soma(){

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro B</title>
+    <script src="estudo.js"></script>
+    <style>
+    input{
+      padding-top: 6px;
+padding-right: 10px
+      border-color: #001f36;
+      border:0,1;
+      background-color:white;
+      color:white;
+        border-radius: 10px;
+    }
+    .{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+      texto{
+        position: center;
+        font-size: left;
+        font-style:normal;
+      color: green;
+    }
+    .caixa{
+      max-width: 100px;
+    }
+    .button {
+      border:0;
+      background-color: #001f36;
+      color:white;
+      border-radius: 10px;
+    }
+    .Calculadora{
+      font-size: 30px;
+      padding-top: 50% - 400px;
+    }
+    .stylejuros {
+      font-size: 30px;
+      padding-top: 50% - 400px;
+    }
+    </style>
+
+</head>
+<body><div class="center">
+<div class="stylejuros">
+
+  <texto>Valor:</texto><input class="caixa" id="valor" type="text"><br>
+  <texto>Juros(Mensais):</texto> <input class="caixa" id="juros" type="text"><br>
+  <texto>N Meses: </texto> <input class="caixa" id="meses" type="text"><br>
+  <button class="button" onclick="total()">Calcular os Juros</button>
+
+</div>
+
+
+  <br/><br/><br/><br/>
+<div class="Calculadora">
+
+  <span id="result">Resultado 0,00</span><br>
+
+  N 1: <input id="n1" type="text"><br>
+  N 2: <input id="n2" type="text"><br>
+  N 3: <input id="n3" type="text"><br>
+  N 4: <input id="n4" type="text"><br>
+
+  <button class="button" onclick="media()">Calcular a Media</button>
+  <button class="button" onclick="soma()">Calcular a Soma</button>
+
+</div>
+
+</div>
+
+
+
+
+</body>
+</html>

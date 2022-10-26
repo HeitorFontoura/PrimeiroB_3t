@@ -7,14 +7,24 @@
     <title>Primeiro B</title>
     <script src="estudo.js"></script>
     <style>
+    input::{
+      color: black;
+    }
+    body{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1900px;
+      margin:0 auto;
+      padding: 0 1%;
+    }
     input{
       padding-top: 6px;
-padding-right: 10px
-      border-color: #001f36;
-      border:0,1;
-      background-color:white;
+      padding-right:10px;
+      border-color: orange;
+      border:1;
+      background-color:black;
       color:white;
-        border-radius: 10px;
+        border-radius: 30px;
     }
     .{
       margin:0;
@@ -25,9 +35,10 @@ padding-right: 10px
         position: center;
         font-size: left;
         font-style:normal;
-      color: green;
+      color:#001f36 ;
     }
     .caixa{
+      text-decoration-color: #001f36;
       max-width: 100px;
     }
     .button {
@@ -47,13 +58,18 @@ padding-right: 10px
     </style>
 
 </head>
-<body><div class="center">
+<body>
+  <div class="center">
 <div class="stylejuros">
-
+  <span id="totaljuros">Total:0,00</span><br
   <texto>Valor:</texto><input class="caixa" id="valor" type="text"><br>
   <texto>Juros(Mensais):</texto> <input class="caixa" id="juros" type="text"><br>
   <texto>N Meses: </texto> <input class="caixa" id="meses" type="text"><br>
   <button class="button" onclick="total()">Calcular os Juros</button>
+
+</div>
+<div>
+  <span id="mes">Meses</span>
 
 </div>
 
@@ -70,6 +86,7 @@ padding-right: 10px
 
   <button class="button" onclick="media()">Calcular a Media</button>
   <button class="button" onclick="soma()">Calcular a Soma</button>
+
 
 </div>
 
